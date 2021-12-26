@@ -2,6 +2,7 @@ const Users = [
     {
         id: 1,
         name: "snowbit",
+        displayName: "SnowBit",
         img: "https://avatars.githubusercontent.com/u/65452005?v=4",
         bio: "Coding is fun",
         social: [

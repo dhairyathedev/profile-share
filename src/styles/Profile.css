@@ -1,0 +1,15 @@
+.p-container{
+    font-family: monospace;
+    margin-top: 30px;
+}
+.p-bio{
+    font-size: 20px;
+}
+.p-icon-link{
+    color: black;
+}
+.p-icon{
+    font-size: 40px;
+    margin: 15px;
+    color: black;
+}

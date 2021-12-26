@@ -3,9 +3,10 @@ import { faGithub, faTwitter, faYoutube, faFacebook, faDev, faCodepen, faStackOv
 import React, { useEffect, useState } from 'react'
 import {useParams} from 'react-router-dom'
 import Users from '../../data/UsersData';
+import '../../styles/Profile.css';
 function Profile() {
     const {username} = useParams();
-    const name = Users.find(user => user.name === username).name;
+    const name = Users.find(user => user.name === username).displayName;
     const bio = Users.find(user => user.name === username).bio;
     const avatar = Users.find(user => user.name === username).img;
     const social = Users.find(user => user.name === username).social;
@@ -16,13 +17,10 @@ function Profile() {
         console.log(social[i])
         switch(social[i].name) {
             case "github":
-                console.log('Github');
-                console.log(social[i].url); 
                 setIcon(icon => [...icon, faGithub]);
                 setList(prevList => [...prevList, social[i].url])
                 break;
             case "twitter":
-                console.log('Twitter');
                 setIcon(icon => [...icon, faTwitter]);
                 setList(prevList => [...prevList, social[i].url])
                 break;
@@ -62,19 +60,19 @@ function Profile() {
                 console.log('No Socials found')
         }
     }
-    console.log(social)
 }, [social])
     return (
-        <div>
-            <img src={avatar} alt={name} className='img-fluid rounded-circle' />
-            <h1>{name}</h1>
-            <p>{bio}</p>
-            
+        <div className="p-container">
+            <center>
+            <img src={avatar} alt={name} className='img-fluid rounded-circle avatar' />
+            <h1 className="p-title">{name}</h1>
+            <div className="p-bio">{bio}</div>
             <div className='social-links'>
             {icon.map((icon, index) => {
-                return <a href={list[index]} target="_blank" rel="noopener noreferrer" key={index}><FontAwesomeIcon icon={icon} /></a>
+                return <a href={list[index]} target="_blank" rel="noopener noreferrer" key={index} className="p-icon-link"><FontAwesomeIcon icon={icon} className="p-icon"/></a>
             })}
             </div>
+            </center>
         </div>
     )
 }

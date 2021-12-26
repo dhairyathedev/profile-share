@@ -17,4 +17,3 @@ Before installation, make sure you have following tools installed on your machin
 
 ### 🙃 **Contributing**
 - Any contributons of yours are **greatly appreciated**
-
