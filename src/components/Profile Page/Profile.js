@@ -72,7 +72,7 @@ function Profile() {
             
             <div className='social-links'>
             {icon.map((icon, index) => {
-                return <a href={list[index]} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={icon} /></a>
+                return <a href={list[index]} target="_blank" rel="noopener noreferrer" key={index}><FontAwesomeIcon icon={icon} /></a>
             })}
             </div>
         </div>
