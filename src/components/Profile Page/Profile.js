@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faTwitter, faYoutube, faFacebook, faDev, faCodepen, faStackOverflow, faInstagram, faHackerNews, faGitlab } from '@fortawesome/free-brands-svg-icons';
 import React, { useEffect, useState } from 'react'
 import {useParams} from 'react-router-dom'
 import Users from '../../data/UsersData';
@@ -18,14 +18,44 @@ function Profile() {
             case "github":
                 console.log('Github');
                 console.log(social[i].url); 
+                setIcon(icon => [...icon, faGithub]);
                 setList(prevList => [...prevList, social[i].url])
                 break;
             case "twitter":
                 console.log('Twitter');
+                setIcon(icon => [...icon, faTwitter]);
                 setList(prevList => [...prevList, social[i].url])
                 break;
             case "youtube":
-                console.log('Youtube');
+                setIcon(icon => [...icon, faYoutube]);
+                setList(prevList => [...prevList, social[i].url])
+                break;
+            case "facebook":
+                setIcon(icon => [...icon, faFacebook]);
+                setList(prevList => [...prevList, social[i].url])
+                break;
+            case "dev":
+                setIcon(icon => [...icon, faDev]);
+                setList(prevList => [...prevList, social[i].url])
+                break;
+            case "codepen":
+                setIcon(icon => [...icon, faCodepen]);
+                setList(prevList => [...prevList, social[i].url])
+                break;
+            case "stackoverflow":
+                setIcon(icon => [...icon, faStackOverflow]);
+                setList(prevList => [...prevList, social[i].url])
+                break;
+            case "instagram":
+                setIcon(icon => [...icon, faInstagram]);
+                setList(prevList => [...prevList, social[i].url])
+                break;
+            case "hackernews":
+                setIcon(icon => [...icon, faHackerNews]);
+                setList(prevList => [...prevList, social[i].url])
+                break;
+            case "gitlab":
+                setIcon(icon => [...icon, faGitlab]);
                 setList(prevList => [...prevList, social[i].url])
                 break;
             default:
@@ -39,16 +69,11 @@ function Profile() {
             <img src={avatar} alt={name} className='img-fluid rounded-circle' />
             <h1>{name}</h1>
             <p>{bio}</p>
-            <FontAwesomeIcon icon={faGithub} />
+            
             <div className='social-links'>
-            {list.map((link) => 
-            <div key={link.url}>
-                <a href={link} target='_blank' rel='noopener noreferrer' key={link.id}>
-                    {link}
-                </a>
-                <br />
-                </div>
-            )}
+            {icon.map((icon, index) => {
+                return <a href={list[index]} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={icon} /></a>
+            })}
             </div>
         </div>
     )

@@ -16,6 +16,10 @@ const Users = [
                 {
                     name: "youtube",
                     url: "https://www.youtube.com/channel/UCNTKqF1vhFYX_v0ERnUa1RQ",
+                },
+                {
+                    name: "dev",
+                    url: "https://dev.to/snowbit",
                 }
             
             ]
