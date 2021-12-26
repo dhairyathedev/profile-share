@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .homeUser{
   display: inline;
 }
 .homeUser img{
   width: 60px;
+}
+.title{
+  font-family: 'Pacifico', cursive;
+}
+.navigation{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
 }
