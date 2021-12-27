@@ -4,6 +4,9 @@
 r Profiel
 <!-- Image -->
 
+
+### 👨🏻‍💻 **Demo**
+Check out: [Profile Share](https://profile-share.netlify.app/)
 ### 🚦 **Prerequisites**
 Before installation, make sure you have following tools installed on your machine:
 - [Git](https://git-scm.com/downloads)
@@ -23,7 +26,7 @@ Before installation, make sure you have following tools installed on your machin
 - Go to `/src/data/UsersData.js`
 - Submit your profile from the **end** of the file, don't submit your profile in radnom order it must be submitted from bottom and should not be added in between
 - Syntax must be like following code-block, and make sure to add comment at the start/end as shown in the following code:
-
+- Your **avatar** URL must follow the format of `https://github.com/<yourusername>.png`
   ```js
   // SnowBit Start
   {
@@ -52,4 +55,7 @@ Before installation, make sure you have following tools installed on your machin
     ]}
     //SnowBit End
 
-- Your **avatar** URL must follow the format of `https://github.com/<yourusername>.png`
+- Your URL will be `https://profile-share.netlify.app/<username>`
+
+Looking for example? Check out
+- [SnowBit](https://profile-share.netlify.app/snowbit)
