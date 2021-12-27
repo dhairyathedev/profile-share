@@ -17,3 +17,38 @@ Before installation, make sure you have following tools installed on your machin
 
 ### 🙃 **Contributing**
 - Any contributons of yours are **greatly appreciated**
+
+
+### 🗃 **Add your profile**
+- Go to `/src/data/UsersData.js`
+- Submit your profile from the **end** of the file, don't submit your profile in radnom order it must be submitted from bottom and should not be added in between
+- Syntax must be like following code-block, and make sure to add comment at the start/end as shown in the following code:
+
+  ```js
+  // SnowBit Start
+  {
+    name: "snowbit",
+    displayName: "SnowBit",
+    img: "https://avatars.githubusercontent.com/u/65452005?v=4",
+    bio: "Coding is fun",
+    social: [
+        {
+            name: "github",
+            url: "https://github.com/snowbit-coderboi",
+        },
+        {
+            name: "twitter",
+            url: "https://twitter.com/codewithsnowbit",
+        },
+        {
+            name: "youtube",
+            url: "https://www.youtube.com/channel/UCNTKqF1vhFYX_v0ERnUa1RQ",
+        },
+        {
+            name: "dev",
+            url: "https://dev.to/snowbit",
+        }
+
+    ]}
+    //SnowBit End
+

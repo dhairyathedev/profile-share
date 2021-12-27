@@ -1,6 +1,6 @@
 const Users = [
+    // SnowBit Start
     {
-        id: 1,
         name: "snowbit",
         displayName: "SnowBit",
         img: "https://avatars.githubusercontent.com/u/65452005?v=4",
@@ -25,8 +25,8 @@ const Users = [
             
             ]
     },
+    // SnowBit End
     {
-        id: 2,
         name: "octocat",
         img: "https://avatars.githubusercontent.com/u/583231?v=4",
         github: "https://github.com/octocat"
