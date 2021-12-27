@@ -8,6 +8,10 @@
 }
 .title{
   font-family: 'Pacifico', cursive;
+  background-image: linear-gradient(to left, violet, blue, green, orange, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .navigation{
   margin-top: 20px;

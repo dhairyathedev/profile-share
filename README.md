@@ -1,17 +1,23 @@
-# Profile Share By SnowBit
+# **Profile Share By SnowBit**
+
 - **Profile Share** connects people. It is an open-source platform to share your profiles.
-- Main point of making this is to encourage people to contribute in opensource
-r Profiel
-<!-- Image -->
+- Main point of making this is to encourage people to contribute in opensource.
 
 
-### 👨🏻‍💻 **Demo**
+## 👨🏻‍💻 **Demo**
+
 Check out: [Profile Share](https://profile-share.netlify.app/)
+
 ### 🚦 **Prerequisites**
+
 Before installation, make sure you have following tools installed on your machine:
+
 - [Git](https://git-scm.com/downloads)
+  
 - [NODE.JS](https://nodejs.org/en/download/)
+  
 ### 🛠 **Installing steps**
+
 - Fork the project
 - Clone the project
 - Go to project directory `cd profile-share`
@@ -19,14 +25,18 @@ Before installation, make sure you have following tools installed on your machin
 - Run `npm start`
 
 ### 🙃 **Contributing**
+
 - Any contributons of yours are **greatly appreciated**
 
 
 ### 🗃 **Add your profile**
+
 - Go to `/src/data/UsersData.js`
+
 - Submit your profile from the **end** of the file, don't submit your profile in radnom order it must be submitted from bottom and should not be added in between
 - Syntax must be like following code-block, and make sure to add comment at the start/end as shown in the following code:
 - Your **avatar** URL must follow the format of `https://github.com/<yourusername>.png`
+- 
   ```js
   // SnowBit Start
   {
@@ -58,4 +68,23 @@ Before installation, make sure you have following tools installed on your machin
 - Your URL will be `https://profile-share.netlify.app/<username>`
 
 Looking for example? Check out
+
 - [SnowBit](https://profile-share.netlify.app/snowbit)
+
+### **Socials**
+
+Make sure to use the exact names of the social apps in your profile code block or else social icons will not be shown on your profile page
+
+- github
+- twitter
+- youtube
+- facebook
+- dev
+- codepen
+- stackoverflow
+- instagram
+- hackernews
+- gitlab
+
+### **Support**
+Give it a **star** ⭐️ and become a stargazer 💫
