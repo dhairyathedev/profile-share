@@ -1,0 +1,16 @@
+name: Bug
+description: Report an issue
+labels: ['fix']
+body:
+ - type: textarea
+   id: description
+   attributes:
+      label: Description
+      description: Detailed bug description
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Attach screenshots
+    validations:
+      required: false
