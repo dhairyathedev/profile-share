@@ -6,7 +6,7 @@ function HomeUsers() {
     return (
         <div className='mt-4'>
             {
-                Users.map((data) => <a href={data.github} target="_blank" rel="noopener noreferrer"><User key={data.id} img={data.img} name={data.name}/></a>)
+                Users.map((data) => <a href={"/"+data.name} rel="noopener noreferrer"><User key={data.id} img={data.img} name={data.name}/></a>)
             }
         </div>
     )
