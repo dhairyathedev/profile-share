@@ -29,7 +29,7 @@ Before installation, make sure you have following tools installed on your machin
   {
     name: "snowbit",
     displayName: "SnowBit",
-    img: "https://avatars.githubusercontent.com/u/65452005?v=4",
+    img: "https://github.com/snowbit-coderboi.png",
     bio: "Coding is fun",
     social: [
         {
@@ -52,3 +52,4 @@ Before installation, make sure you have following tools installed on your machin
     ]}
     //SnowBit End
 
+- Your **avatar** URL must follow the format of `https://github.com/<yourusername>.png`

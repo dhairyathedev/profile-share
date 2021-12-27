@@ -3,7 +3,7 @@ const Users = [
     {
         name: "snowbit",
         displayName: "SnowBit",
-        img: "https://avatars.githubusercontent.com/u/65452005?v=4",
+        img: "https://github.com/snowbit-coderboi.png",
         bio: "Coding is fun",
         social: [
                 {
