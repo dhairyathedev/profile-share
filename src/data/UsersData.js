@@ -26,10 +26,7 @@ const Users = [
             ]
     },
     // SnowBit End
-    {
-        name: "octocat",
-        img: "https://avatars.githubusercontent.com/u/583231?v=4",
-        github: "https://github.com/octocat"
-    }
+
+    // Add Above this line
 ]
 export default Users
