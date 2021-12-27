@@ -86,5 +86,10 @@ Make sure to use the exact names of the social apps in your profile code block o
 - hackernews
 - gitlab
 
+### 🔥 **Contributors**
+<a href="https://github.com/snowbit-coderboi/profile-share/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=snowbit-coderboi/profile-share" />
+</a>
+
 ### **Support**
 Give it a **star** ⭐️ and become a stargazer 💫
