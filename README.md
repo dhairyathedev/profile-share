@@ -47,7 +47,7 @@ Before installation, make sure you have following tools installed on your machin
     social: [
         {
             name: "github",
-            url: "https://github.com/codewithsnowbit.png",
+            url: "https://github.com/codewithsnowbit",
         },
         {
             name: "twitter",
