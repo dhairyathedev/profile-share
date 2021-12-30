@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter, faYoutube, faFacebook, faDev, faCodepen, faStackOverflow, faInstagram, faHackerNews, faGitlab } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faTwitter, faYoutube, faFacebook, faDev, faCodepen, faStackOverflow, faInstagram, faHackerNews, faGitlab, faHackerrank } from '@fortawesome/free-brands-svg-icons';
 import React, { useEffect, useState } from 'react'
 import {useParams} from 'react-router-dom'
 import Users from '../../data/UsersData';
@@ -56,6 +56,10 @@ function Profile() {
                 setIcon(icon => [...icon, faGitlab]);
                 setList(prevList => [...prevList, social[i].url])
                 break;
+            case "hackerrank":
+                setIcon(icon => [...icon, faHackerrank]);
+                setList(prevList => [...prevList, social[i].url])
+                break;
             default:
                 console.log('No Socials found')
         }
@@ -63,7 +67,6 @@ function Profile() {
 }, [social])
     return (
         <div className="p-container">
-            <center>
             <img src={avatar} alt={name} className='img-fluid rounded-circle avatar' />
             <h1 className="p-title">{name}</h1>
             <div className="p-bio">{bio}</div>
@@ -72,7 +75,6 @@ function Profile() {
                 return <a href={list[index]} target="_blank" rel="noopener noreferrer" key={index} className="p-icon-link"><FontAwesomeIcon icon={icon} className="p-icon"/></a>
             })}
             </div>
-            </center>
         </div>
     )
 }
