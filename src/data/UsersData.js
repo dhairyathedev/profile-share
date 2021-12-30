@@ -8,7 +8,7 @@ const Users = [
         social: [
                 {
                     name: "github",
-                    url: "https://github.com/snowbit-coderboi",
+                    url: "https://github.com/codewithsnowbit",
                 },
                 {
                     name: "twitter",
