@@ -71,7 +71,7 @@ Looking for example? Check out
 
 - [SnowBit](https://profile-share.netlify.app/snowbit)
 
-### **Socials**
+### **Icons**
 
 Make sure to use the exact names of the social apps in your profile code block or else social icons will not be shown on your profile page
 
