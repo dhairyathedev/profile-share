@@ -42,12 +42,12 @@ Before installation, make sure you have following tools installed on your machin
   {
     name: "snowbit",
     displayName: "SnowBit",
-    img: "https://github.com/snowbit-coderboi.png",
+    img: "https://github.com/codewithsnowbit.png",
     bio: "Coding is fun",
     social: [
         {
             name: "github",
-            url: "https://github.com/snowbit-coderboi",
+            url: "https://github.com/codewithsnowbit.png",
         },
         {
             name: "twitter",
