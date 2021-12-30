@@ -27,6 +27,34 @@ const Users = [
     },
     // SnowBit End
 
+    // Nirbhay Start
+    {
+        name: "Nirbhay",
+        displayName: "Nirbhay",
+        img: "https://github.com/nirbhay12345.png",
+        bio: "Collaborate and Code",
+        social: [
+                {
+                    name: "github",
+                    url: "https://github.com/nirbhay12345",
+                },
+                {
+                    name: "twitter",
+                    url: "https://twitter.com/Nirbhay00704167",
+                },
+                {
+                    name: "hackerrank",
+                    url: "https://www.hackerrank.com/nirc34",
+                },
+                {
+                    name: "codepen",
+                    url: "https://codepen.io/Sherlock0o7",
+                }
+            
+            ]
+    },
+    // Nirbhay End
+
     // Add Above this line
 ]
 export default Users
