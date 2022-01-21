@@ -55,6 +55,36 @@ const Users = [
     },
     // Nirbhay End
 
+    
+    // Skyascii Start
+    {
+        name: "Skyascii",
+        displayName: "Skyascii",
+        img: "https://github.com/savioxavier.png",
+        bio: "I design stuff. Sometimes useful. Sometimes not.",
+        social: [
+                {
+                    name: "github",
+                    url: "https://github.com/savioxavier",
+                },
+                {
+                    name: "twitter",
+                    url: "https://twitter.com/saviounderscore",
+                },
+                {
+                    name: "codepen",
+                    url: "https://codepen.io/savioxavier",
+                },
+                {
+                    name: "dev",
+                    url: "https://dev.to/savioxavier",
+                }
+            
+            ]
+    },
+    // Skyascii End
+
+
     // Add Above this line
 ]
 export default Users
