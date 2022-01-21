@@ -72,6 +72,10 @@ const Users = [
                     url: "https://twitter.com/saviounderscore",
                 },
                 {
+                    name: "replit",
+                    url: "https://repl.it/@savioxavier",
+                },
+                {
                     name: "codepen",
                     url: "https://codepen.io/savioxavier",
                 },
