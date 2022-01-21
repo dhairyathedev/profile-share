@@ -80,6 +80,7 @@ Make sure to use the exact names of the social apps in your profile code block o
 - youtube
 - facebook
 - dev
+- replit
 - codepen
 - stackoverflow
 - instagram

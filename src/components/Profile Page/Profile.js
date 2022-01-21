@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter, faYoutube, faFacebook, faDev, faCodepen, faStackOverflow, faInstagram, faHackerNews, faGitlab, faHackerrank } from '@fortawesome/free-brands-svg-icons';
+import { SiReplit } from 'react-icons/si'
 import React, { useEffect, useState } from 'react'
 import {useParams} from 'react-router-dom'
 import Users from '../../data/UsersData';
@@ -60,23 +61,45 @@ function Profile() {
                 setIcon(icon => [...icon, faHackerrank]);
                 setList(prevList => [...prevList, social[i].url])
                 break;
+            case "replit":
+                setIcon(icon => [...icon, SiReplit]);
+                setList(prevList => [...prevList, social[i].url])
+                break;
             default:
                 console.log('No Socials found')
         }
     }
 }, [social])
     return (
-        <div className="p-container">
-            <img src={avatar} alt={name} className='img-fluid rounded-circle avatar' />
-            <h1 className="p-title">{name}</h1>
-            <div className="p-bio">{bio}</div>
-            <div className='social-links'>
+      <div className="p-container">
+        <img
+          src={avatar}
+          alt={name}
+          className="img-fluid rounded-circle avatar"
+        />
+        <h1 className="p-title">{name}</h1>
+        <div className="p-bio">{bio}</div>
+        <div className="social-links">
             {icon.map((icon, index) => {
-                return <a href={list[index]} target="_blank" rel="noopener noreferrer" key={index} className="p-icon-link"><FontAwesomeIcon icon={icon} className="p-icon"/></a>
+                return (
+                    <a
+                        href={list[index]}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        key={index}
+                        className="p-icon-link"
+                    >
+                        {icon === SiReplit ? (
+                            <SiReplit className="replit-icon" />
+                        ) : (
+                        <FontAwesomeIcon icon={icon} className="p-icon" />
+                        )}
+                    </a>
+                );
             })}
-            </div>
         </div>
-    )
+      </div>
+    );
 }
 
 export default Profile
