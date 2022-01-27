@@ -87,36 +87,7 @@ const Users = [
             ]
     },
     // Skyascii End
-  {
-        name: "Parth doongarwal",
-        displayName: "Part doongarwal",
-        img: "https://github.com/parthdoongarwal.png",
-        bio: "A wise man once said programming is pretty cool",
-        social: [
-                {
-                    name: "github",
-                    url: "https://github.com/parthdoongarwal",
-                },
-                {
-                    name: "twitter",
-                    url: "https://i.imgflip.com/62qsyf.jpg",
-                },
-                {
-                    name: "replit",
-                    url: "https://i.imgflip.com/62qsyf.jpg",
-                },
-                {
-                    name: "codepen",
-                    url: "https://codepen.io/Parth_website_builder",
-                },
-                {
-                    name: "dev",
-                    url: "https://dev.to/savioxavier",
-                }
-            
-            ]
-    },
-
+ 
     // Parth start
     
     {
