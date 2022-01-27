@@ -87,8 +87,32 @@ const Users = [
             ]
     },
     // Skyascii End
-
-
+ 
+    // Parth start
+    
+    {
+        name: "Parth doongarwal",
+        displayName: "Part doongarwal",
+        img: "https://github.com/parthdoongarwal.png",
+        bio: "A wise man once said programming is pretty cool",
+        social: [
+                {
+                    name: "github",
+                    url: "https://github.com/parthdoongarwal",
+                },
+                {
+                    name: "codepen",
+                    url: "https://codepen.io/Parth_website_builder",
+                },
+               
+            ]
+    },
+    
+    // Parth end
+    
+    // Add below this line
+    
+    
     // Add Above this line
 ]
 export default Users
