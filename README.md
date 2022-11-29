@@ -1,4 +1,4 @@
-# **Profile Share By SnowBit**
+# **Profile Share**
 
 - **Profile Share** connects people. It is an open-source platform to share your profiles.
 - Main point of making this is to encourage people to contribute in opensource.
